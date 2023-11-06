@@ -1,0 +1,79 @@
+body{
+
+    background-image: url(TechBackground.png);
+    background-size: cover;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.typing-container {
+    margin-top: 5%;
+    text-align: center;
+    height: 30px;
+  }
+  
+  #text {
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #000;
+  }
+
+
+.dropdown-button {
+    cursor: pointer;
+    background-color: #3498db;
+    font-size: larger;
+    color: hsl(0, 22%, 84%);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+.dropdown-button:hover {
+    background-color: purple;
+    color: black;
+}
+
+
+
+.content {
+    display: none;
+    background-color: hsla(0, 7%, 27%, 0.75);
+    height: fit-content;
+    border-radius: 20px;
+    font-size: larger;
+    
+}
+
+.section-container {
+    margin-top: 10%;
+    position: relative;
+    max-width: 100%;
+  }
+
+  #button-content1{
+    position: absolute;
+    right: 70%;
+  }
+
+  #button-content2{
+    position: absolute;
+    left: 70%;
+  }
+
+  .summary{
+    margin-top: 25%;
+    font-size: larger;
+    color: bisque;
+  }
+  .summary h2{
+    color: red;
+  }
+  
+  
