@@ -38,7 +38,6 @@ function toggleContent(contentId) {
     }
 }
 
-// Add event listeners to the buttons
 document.getElementById("advantages-button").addEventListener("click", function() {
     toggleContent("advantages-text");
 });
